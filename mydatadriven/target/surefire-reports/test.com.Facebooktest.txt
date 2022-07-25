@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: test.com.Facebooktest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.451 sec <<< FAILURE!
+testFacebook(test.com.Facebooktest)  Time elapsed: 4.032 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Create New Account'])[1]/following::span[3]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-6EQ85LQ', ip: '10.1.10.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at test.com.Facebooktest.testFacebook(Facebooktest.java:63)
+
